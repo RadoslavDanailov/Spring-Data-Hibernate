@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springautomappingobjects.SpringAutoMappingObjectsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.403 s <<< FAILURE! - in com.example.springautomappingobjects.SpringAutoMappingObjectsApplicationTests
+com.example.springautomappingobjects.SpringAutoMappingObjectsApplicationTests  Time elapsed: 4.396 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.example.springautomappingobjects.Application]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Lenovo R\Desktop\SpringAutoMappingObjects\target\classes\com\example\springautomappingobjects\Application.class], Generic bean: class [com.example.springautomappingobjects.SpringAutoMappingObjectsApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Lenovo R\Desktop\SpringAutoMappingObjects\target\classes\com\example\springautomappingobjects\SpringAutoMappingObjectsApplication.class]]
+
